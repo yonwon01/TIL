@@ -42,3 +42,11 @@ VOLUME: 호스트와 공유할 디렉터리 목록입니다. docker run 명령�
 CMD: 컨테이너가 시작되었을 때 실행할 실행 파일 또는 셸 스크립트입니다.
 WORKDIR: CMD에서 설정한 실행 파일이 실행될 디렉터리입니다.
 EXPOSE: 호스트와 연결할 포트 번호입니다.
+
+
+컨테이너 오케스트레이션(kubernetes,swarm,ibm cloud container service) 장점
+-
+scheduling distribution nodes
+maintain highability
+reconcliation
+scaling up
