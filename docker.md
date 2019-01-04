@@ -45,8 +45,10 @@ EXPOSE: 호스트와 연결할 포트 번호입니다.
 
 
 컨테이너 오케스트레이션(kubernetes,swarm,ibm cloud container service) 장점
--
-scheduling distribution nodes
-maintain highability
-reconcliation
-scaling up
+-distributed nodes 
+-maintaining high availability 
+-implementing reconciliation
+-scaling, and logging
+
+Swarm 을 통한 실습
+1.
