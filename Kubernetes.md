@@ -19,7 +19,35 @@
           4) Pod 내부의 컨테이너들은 네트워크와 볼륨 등을 공유하고 서로 localhost로 통신할 수 있다. ex)  컨테이너 A가 8080, 컨테이너 B가 7001로 배포가 되었을 때, B에서 A를 호출할때는 localhost:8080 으로 호출하면 되고, 반대로 A에서 B를 호출할때에넌 localhost:7001로 호출하면 된다.
           
 *  Service 란?
-     *
+     * Pod의 경우에 지정되는 Ip가 랜덤하게 지정이 되고 리스타트 때마다 변하기 때문에 고정된 엔드포인트로 호출이 어렵다. 또한 여러 Pod에 같은 애플리케이션을 운용할 경우 이 Pod 간의 로드밸런싱을 지원해줘야 하는데, 그 역할을 한느 것이 service이다.
+*  Voloume 이란?
+     * Pod에 종속되는 디스크이다. (컨테이너 단위가 아님). Pod 단위이기 때문에, 그 Pod에 속해 있는 여러개의 컨테이너가 공유해서 사용될 수 있다.
+     - volume 특징
+          1) 파드의 모든 컨테이너는 볼륨에 접근이 가능
+          2) vloume은 pods가 삭제가 되어도 유지가능
+          3) volume은 여러 백앤드 storage를 기반으로 한다
+     - volume type
+        * Host-based
+            * EmptyDir
+            * HostPath
+        * Block Storage
+            * Amazon EBS
+            * GCE Persistent Disk
+            * Azure Disk
+            * vSphere Volume
+            * ...
+        * Distributed File System
+            * NFS
+            * Ceph
+            * Gluster
+            * Amazon EFSs
+            * Azure File System
+            * ...
+        * Other
+            * Flocker
+            * iScsi
+            * Git Repo
+            * Quobyte
 
 
 
