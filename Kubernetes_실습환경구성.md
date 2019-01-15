@@ -42,8 +42,8 @@
 
 
 ### 4) 간단 실습 해보기
-1) nginx이미지 배포해보기 
 
+* nginx이미지 배포해보기 
 * kubectl run my-web --image=nginx --port=80
 ![nginx이미지 만들기_2.png](https://s3-ap-northeast-1.amazonaws.com/torchpad-production/wikis/10853/H3QOKnVhTBGzNzIL7tvU_nginx%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5_2.png)
 > deployment 생성을 통해 replica와 pod가 생성된다.
