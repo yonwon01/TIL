@@ -73,4 +73,4 @@ PORT : <내부포트>:<NODE_PORT>/TCP
 
 * nginx 실행 
 ![public_cloud_nginx완성.png](https://s3-ap-northeast-1.amazonaws.com/torchpad-production/wikis/10853/C0fb3vmDT3e3I1tVnj51_public_cloud_nginx%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%89%E1%85%A5%E1%86%BC.png)
-> public ip:노드포트 를 통해 nginx가 실행 되는것을 확인 할 수 있다.
+> [public ip:노드포트] 를 통해 nginx가 실행 되는것을 확인 할 수 있다.
