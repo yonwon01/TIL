@@ -1,4 +1,4 @@
-# devops_실습
+# devops_HandsOn
 
 ![스크린샷 2019-01-17 오후 4.01.25.png](https://s3-ap-northeast-1.amazonaws.com/torchpad-production/wikis/10853/VfywIvfRT0qLnKI0F0HR_%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-01-17%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.01.25.png)
 
