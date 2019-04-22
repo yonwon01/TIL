@@ -56,9 +56,9 @@
     
   1) rc 생성하기  
 	
-    ```
-    kubectl create -f "yaml파일"
-    ```
+  ```
+  kubectl create -f "yaml파일"
+  ```
 ![스크린샷 2019-01-16 오전 11.23.38.png](https://s3-ap-northeast-1.amazonaws.com/torchpad-production/wikis/10853/dp5NeZumT7mJee8CyxoY_%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-01-16%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2011.23.38.png)
 
        
