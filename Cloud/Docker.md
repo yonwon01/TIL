@@ -55,6 +55,7 @@ docker container prune : 실행중이지 않은 컨테이너 모두 삭제하기
 docker container stop $(docker container ls -a -q) : $() 는 변수명으로 변환하는 명령어로 생성되있는 컨테이너 ID를 변수로 지정한다.
 docker container rm $(docker container ls -a -q) : 생성된 모든 컨테이너를 삭제한다.
 
+
 #### 7. 외부에서 접속하기 - 외부에서 접속 하기 위해서는 포트번호를 호스트에 바인딩 해주어야 한다.
 
 
