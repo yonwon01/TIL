@@ -2,8 +2,8 @@
 ## Deployment
 	
   * deployment 란?
-   - deployment는 pod와 replica set으로 배포할때 수동적으로 갯수를 조정해야하는 점을 자동으로 할수 있도록 만든 추상화된 개념이다 
-   - 어플리케이션을 관리하고 스케일링 하는데 유동적이다
+       * deployment는 pod와 replica set으로 배포할때 수동적으로 갯수를 조정해야하는 점을 자동으로 할수 있도록 만든 추상화된 개념이다 
+       *  어플리케이션을 관리하고 스케일링 하는데 유동적이다
 
   * deployment 방식
    
