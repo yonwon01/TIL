@@ -65,4 +65,4 @@ docker container rm $(docker container ls -a -q) : 생성된 모든 컨테이너
 ![스크린샷 2019-03-13 오후 2.50.48.png](https://s3-ap-northeast-1.amazonaws.com/torchpad-production/wikis/10853/mPvWfo6KTGmBIEK9f6lN_%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-03-13%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.50.48.png)
 > container의 80포트번호를 호스트의 8080포트로 바인딩하여 public ip를 통해 외부에서도 접속 할 수 있도록 한다.
 
-#### 8. container의 설정파일을 호스트에서 다루기
+
